@@ -1,0 +1,42 @@
+#about-container{
+    margin: 4em 4em 10em 4em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.couple-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.story{
+    padding: 10px 40px;
+    background-color: #13AC81;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+}
+.story h2{
+    font-size: 3rem;
+    color: white;
+    margin-right: 20px;
+}
+.story img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+.about-details-container h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+.about-details-container p{
+    font-size: 1.5rem;
+}
