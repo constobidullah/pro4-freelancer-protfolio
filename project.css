@@ -1,0 +1,24 @@
+.project{
+    padding: 100px;
+}
+
+.project-heading {
+    padding: 10px 40px;
+    background-color: #13AC81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.project-heading img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.project-heading h2 {
+    font-size: 3rem;
+    color: white;
+    margin-right: 1.5em;
+}
