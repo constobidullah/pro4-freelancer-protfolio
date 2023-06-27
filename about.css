@@ -33,8 +33,6 @@
     border-radius: 50%;
 }
 
-
-
 .about-details-container h1 {
     font-size: 2.5rem;
     margin: 20px 0;
@@ -52,6 +50,7 @@ article {
     gap: 50px;
     background-color: rgb(250, 253, 255);
     padding: 50px;
+    margin-bottom: 7em;
 }
 
 .information-container {
@@ -121,4 +120,22 @@ article {
 .work-experience-item p {
     color: #13AC81;
     font-weight: bold;
+}
+
+/* Company I've worked */
+.worked-company{
+    margin: 90px 0;
+}
+.worked-company h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.worked{
+    display: flex;
+    justify-content: space-evenly;
+}
+.worked img{
+    width: 200px;
+    height: 100px;
 }
