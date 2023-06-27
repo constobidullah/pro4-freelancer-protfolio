@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 3em;
+}
+
+#check{
+    display: none;
+}
+
+.toggle{
+    font-size: 2rem;
+    margin: 0 .8em;
+
+    display: none;
+}
+
+.logo-text{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: chocolate;
+    padding-left: 10px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1em;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.fa-phone-volume{
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.call p{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
