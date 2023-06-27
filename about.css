@@ -1,4 +1,4 @@
-#about-container{
+#about-container {
     margin: 4em 4em 10em 4em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -6,13 +6,13 @@
 }
 
 
-.couple-image img{
+.couple-image img {
     width: 100%;
     border-radius: 10px;
 }
 
 
-.story{
+.story {
     padding: 10px 40px;
     background-color: #13AC81;
     display: flex;
@@ -20,12 +20,14 @@
     align-items: center;
     border-radius: 10px;
 }
-.story h2{
+
+.story h2 {
     font-size: 3rem;
     color: white;
     margin-right: 20px;
 }
-.story img{
+
+.story img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -37,45 +39,86 @@
     font-size: 2.5rem;
     margin: 20px 0;
 }
-.about-details-container p{
+
+.about-details-container p {
     font-size: 1.5rem;
 }
 
 
 /* details on about me */
-article{
+article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
     background-color: rgb(250, 253, 255);
     padding: 50px;
 }
 
-.information-container{
-    border: 1px solid white;
+.information-container {
+    border: 1px solid rgb(53, 52, 52);
     border-radius: 3px;
 }
 
-.information-container h1{
+.information-container h1 {
     padding: 20px;
     border-bottom: 1px solid;
 }
 
-.information-item{
+.information-item {
     padding: 10px;
     display: flex;
     align-items: center;
     background-color: rgb(250, 253, 255);
 }
-.information-item:nth-child(odd){
+
+.information-item:nth-child(odd) {
     background-color: rgb(253, 246, 246);
 }
-.information-item h3{
+
+.information-item h3 {
     color: #13AC81;
     text-align: left;
     padding-left: 20px;
 }
-.information-item p{
+
+.information-item p {
     color: #13AC81;
     text-align: left;
     padding-left: 100px;
+}
+
+/* Working history */
+.work-experience {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.work-experience-item {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.work-experience-item:nth-child(2) {
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid;
+}
+.work-experience-item:nth-child(3) {
+    border-right: 1px solid;
+    border-bottom: 0;
+}
+.work-experience-item:nth-child(4) {
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.work-experience-item h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.work-experience-item p {
+    color: #13AC81;
+    font-weight: bold;
 }
