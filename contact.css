@@ -1,4 +1,4 @@
-.contact-head{
+.contact-head {
     padding: 100px;
 }
 
@@ -24,35 +24,63 @@
     margin-left: 1em;
 }
 
-#contact-container{
+#contact-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.contact-service-container h2{
+.contact-service-container h2 {
     margin-left: 90px;
 }
 
-.contact-service{
+.contact-service-child {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-service {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 10px 70px;
 }
 
-.contact-service p{
+.contact-service p {
     display: inline;
     margin: 10px;
     padding: 10px;
     font-size: 1.5rem;
-    background-color:#f5f8fa;
+    background-color: #f5f8fa;
     text-align: center;
     border: 1px solid rgb(202, 204, 206);
     border-radius: 30px;
     transition: background 2s;
 }
 
-.contact-service p:hover{
-    border: none;
+.contact-service p:hover {
+    border: 1px solid rgb(202, 204, 206);
     background-color: #13AC81;
+    color: white;
+}
+
+.connected{
+    margin-left: 90px;
+}
+
+.connected-link{
+    display: flex;
+}
+.connected-link a{
+    margin: 20px 15px 0 0;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #f5f8fa;
+    border: 1px solid;
+    border-radius: 50%;
+    transition: background 1s;
+}
+
+.connected-link a:hover{
+    background-color:#13AC81;
     color: white;
 }
