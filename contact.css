@@ -23,3 +23,36 @@
     color: white;
     margin-left: 1em;
 }
+
+#contact-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-service-container h2{
+    margin-left: 90px;
+}
+
+.contact-service{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px 70px;
+}
+
+.contact-service p{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color:#f5f8fa;
+    text-align: center;
+    border: 1px solid rgb(202, 204, 206);
+    border-radius: 30px;
+    transition: background 2s;
+}
+
+.contact-service p:hover{
+    border: none;
+    background-color: #13AC81;
+    color: white;
+}
