@@ -38,6 +38,9 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.about-service-container{
+    border-right: 1px solid rgb(240, 231, 231);
+}
 .contact-service {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -48,7 +51,7 @@
     display: inline;
     margin: 10px;
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: #f5f8fa;
     text-align: center;
     border: 1px solid rgb(202, 204, 206);
@@ -83,4 +86,12 @@
 .connected-link a:hover{
     background-color:#13AC81;
     color: white;
+}
+
+.project-start{
+    margin: 30px 0 0 80px;
+}
+.project-start p{
+    margin-top: 10px;
+    font-size: 1.3rem;
 }
