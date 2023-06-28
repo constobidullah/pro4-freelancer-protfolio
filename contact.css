@@ -1,0 +1,25 @@
+.contact-head{
+    padding: 100px;
+}
+
+.contact-form {
+    width: 550px;
+    padding: 10px 40px;
+    background-color: #13AC81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contact-form img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.contact-form h2 {
+    font-size: 3rem;
+    color: white;
+    margin-left: 1em;
+}
