@@ -159,6 +159,12 @@ nav ul li a:hover {
         overflow-x: hidden;
     }
 
+    header {
+        height: 90vh;
+        background-image: linear-gradient(#707fdf, #14B789);
+        position: relative;
+    }
+
     nav {
         background-color: transparent;
         height: 60px;
@@ -246,14 +252,14 @@ nav ul li a:hover {
 
     /* Introduce part start */
     .introduce-container {
-        margin: 0 10px;
+        margin: 0 0 0 10px;
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
     }
 
     .introduce-text {
-        margin-top: 50px;
+        margin: 50px 0 50px 0;
     }
 
     .hello-image {
@@ -282,5 +288,10 @@ nav ul li a:hover {
         border-radius: 40px;
         color: #14B789;
         font-size: 1rem;
+    }
+
+    .introduce-image img {
+        width: 100vw;
+        margin: 0 auto;
     }
 }
