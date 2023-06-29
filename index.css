@@ -276,7 +276,7 @@ nav ul li a:hover {
     }
 
     .available h1 {
-        display: inline;
+        display: block;
         background-color: white;
         padding: 5px 10px;
         border-radius: 40px;
