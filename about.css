@@ -166,26 +166,85 @@ article {
         align-items: center;
         border-radius: 10px;
     }
-    
+
     .story h2 {
         font-size: 1.5rem;
         color: white;
         margin-right: 20px;
     }
-    
+
     .story img {
         width: 100px;
         height: 100px;
         border-radius: 50%;
     }
-    
+
     .about-details-container h1 {
         font-size: 1.5rem;
         margin: 20px 0;
     }
-    
+
     .about-details-container p {
         font-size: 1rem;
     }
-    
+
+    article {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        background-color: rgb(250, 253, 255);
+        padding: 10px;
+        margin: 0 0 3em 0;
+    }
+
+    .information-container {
+        border: 1px solid rgb(53, 52, 52);
+        border-radius: 3px;
+    }
+
+    .information-item {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(250, 253, 255);
+    }
+
+    .information-item:nth-child(odd) {
+        background-color: hsl(34, 50%, 95%);
+    }
+
+    .information-item h3 {
+        color: #13AC81;
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    .information-item p {
+        color: #276654;
+        text-align: left;
+        padding-left: 5em;
+    }
+
+    .work-experience-item h1 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .worked-company {
+        margin: 0 0 90px 0;
+    }
+
+    .worked-company h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1.4em;
+    }
+
+    .worked {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
 }
