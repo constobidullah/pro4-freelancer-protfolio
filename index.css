@@ -149,3 +149,129 @@ nav ul li a:hover {
     width: 100%;
     margin: 50px 0 0 100px;
 }
+
+@media screen and (max-width: 980px) and (min-width: 200px) {
+    nav {
+        background-color: transparent;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        /* flex-direction: row-reverse; */
+        justify-content: space-between;
+        margin: 0;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .toggle {
+        font-size: 2rem;
+        margin: 0 .8em;
+        cursor: pointer;
+        display: block;
+        transform: all 2s;
+    }
+
+    .logo-text {
+        font-size: 2rem;
+        font-weight: bold;
+        color: chocolate;
+        padding-left: 0;
+    }
+
+    nav ul {
+        height: 100vh;
+        width: 100%;
+        background-color: #535DA1;
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        align-items: center;
+        padding-top: 100px;
+        /* transform: all 2s; */
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 2.5rem;
+        margin: 0;
+        line-height: 2em;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    /* Toggle nevbar finished */
+
+    .fa-phone-volume {
+        font-size: 1.5rem;
+        background-color: #14B789;
+        color: white;
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    .call p {
+        border: 2px solid #14B789;
+        background-color: white;
+        border-radius: 30px;
+        padding: 5px;
+        margin-left: 10px;
+        color: #14B789;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .call p:hover {
+        color: white;
+        background-color: #14B789;
+    }
+
+    /* Header part finished  */
+
+    /* Introduce part start */
+    .introduce-container {
+        margin: 0 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .introduce-text {
+        margin-top: 50px;
+    }
+    
+    .hello-image {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .hello-image img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .hello-image h1 {
+        background-color: white;
+        padding: 5px 20px;
+        border-radius: 40px;
+    }
+    
+    .available h1 {
+        display: inline;
+        background-color: white;
+        padding: 5px 10px;
+        border-radius: 40px;
+        color: #14B789;
+        font-size: 1.5rem;
+    }
+}
