@@ -1,6 +1,7 @@
-.service{
+.service {
     padding: 100px;
 }
+
 .service-heading {
     padding: 10px 40px;
     background-color: #13AC81;
@@ -23,34 +24,36 @@
 }
 
 /* Service item */
-.service-container{
+.service-container {
     margin: 30px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
 }
-.service-item{
+
+.service-item {
     background-color: aliceblue;
     border-radius: 10px;
     padding: 50px 30px;
     position: relative;
-    box-shadow: 8px 8px 15px rgb(212, 211, 211),8px 8px 15px rgb(212, 211, 211);
+    box-shadow: 8px 8px 15px rgb(212, 211, 211), 8px 8px 15px rgb(212, 211, 211);
     transition: border .5s, shadow 1s;
 }
-.service-item:hover{
+
+.service-item:hover {
     border: 3px solid #13AC81;
 }
 
-.service-name{
+.service-name {
     height: 30px;
     padding: 0 30px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid;
 }
 
-.service-name p{
+.service-name p {
     background-color: rgb(198, 143, 250);
     padding: 10px 30px;
     border-radius: 20px;
@@ -58,36 +61,143 @@
     color: white;
 }
 
-.service-item:hover .service-name p{
+.service-item:hover .service-name p {
     background-color: #13AC81;
 }
 
-.service-details{
-text-align: center;
+.service-details {
+    text-align: center;
 }
 
-.service-details p{
+.service-details p {
     font-size: 1.5rem;
     padding: 20px 0;
 }
 
-.service-details a{
+.service-details a {
     text-decoration: none;
     font-size: x-large;
     color: gray;
     background-color: rgb(253, 244, 244);
     padding: 10px 20px;
-    border: 1px solid ;
+    border: 1px solid;
     border-radius: 30px;
 }
 
-.service-details a:hover{
+.service-details a:hover {
     border: 0;
     color: white;
     background-color: #13AC81;
     box-shadow: 0 5px 30px rgb(204, 201, 201), 0px 3px 10px gray;
 }
-.service-photo{
+
+.service-photo {
     margin-top: 50px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 980px) and (min-width: 200px) {
+    .service {
+        padding: 10px;
+    }
+
+    .service-heading {
+        padding: 10px 10px;
+        background-color: #13AC81;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .service-heading img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .service-heading h2 {
+        font-size: 2.5rem;
+        color: white;
+        margin-left: 20px;
+    }
+
+
+    /* Service item */
+    .service-container {
+        margin: 30px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    .service-item {
+        background-color: aliceblue;
+        border: 3px solid ab;
+        border-radius: 10px;
+        padding: 10px;
+        /* position: relative; */
+        box-shadow: 8px 8px 15px rgb(212, 211, 211), 8px 8px 15px rgb(212, 211, 211);
+        transition: border .5s, shadow 1s;
+    }
+
+    .service-item:hover {
+        border: 3px solid #13AC81;
+    }
+    
+    .service-name {
+        height: 3em;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid;
+    }
+    
+    .service-name p {
+        background-color: rgb(172, 111, 230);
+        padding: 10px 30px;
+        border-radius: 20px;
+        font-weight: 900;
+        color: white;
+    }
+    
+    .service-item:hover .service-name p {
+        background-color: #13AC81;
+    }
+    
+    .service-details {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .service-details p {
+        font-size: 1.5rem;
+        padding: 20px 0;
+    }
+    
+    .service-details a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: gray;
+        background-color: rgb(253, 244, 244);
+        padding: 10px 20px;
+        border: 1px solid;
+        border-radius: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .service-details a:hover {
+        border: 0;
+        color: white;
+        background-color: #13AC81;
+        box-shadow: 0 5px 30px rgb(204, 201, 201), 0px 3px 10px gray;
+    }
+    
+    .service-photo {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
 }
