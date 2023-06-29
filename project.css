@@ -38,7 +38,7 @@
     border-radius: 20px;
     padding: 20px;
     overflow: hidden;
-    transition: all 1s ;
+    transition: all 1s;
 }
 
 .project-item p {
@@ -59,14 +59,76 @@
 }
 
 /* project item hover effect */
-.project-item:hover{
+.project-item:hover {
     border: 2px solid #13AC81;
     /* overflow: visible; */
 }
 
-.project-item img:hover{
+.project-item img:hover {
     width: 100%;
     margin-top: 30px;
     border-radius: 20px;
     transform: rotate(0deg) translateY(0);
+}
+
+
+
+@media screen and (max-width: 980px) and (min-width: 200px) {
+    .project {
+        padding: 10px;
+    }
+
+    .project-heading {
+        padding: 5px 20px;
+        margin-bottom: 4em;
+        background-color: #13AC81;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .project-heading img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .project-heading h2 {
+        font-size: 2.5rem;
+        color: white;
+        margin-right: 1em;
+    }
+
+    .project-item-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    .project-item {
+        background-color: rgb(252, 252, 252);
+        border: 2px solid rgb(251, 252, 253);
+        border-radius: 20px;
+        padding: 20px;
+        overflow: hidden;
+        transition: all 1s;
+    }
+
+    .project-item p {
+        color: #13AC81;
+        font-size: 1.5rem;
+    }
+
+    .project-item h1 {
+        font-size: 2.5rem;
+    }
+
+    .project-item img {
+        width: 100%;
+        margin-top: 30px;
+        border-radius: 20px;
+        transform: rotate(10deg) translateY(70px);
+        transition: all 1s;
+    }
 }
