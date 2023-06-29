@@ -61,7 +61,7 @@
 /* project item hover effect */
 .project-item:hover{
     border: 2px solid #13AC81;
-    overflow: visible;
+    /* overflow: visible; */
 }
 
 .project-item img:hover{
