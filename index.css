@@ -96,6 +96,8 @@ nav ul li a:hover {
     align-items: center;
 }
 
+
+
 @media screen and (max-width: 980px) and (min-width: 200px) {
     * {
         margin: 0;
