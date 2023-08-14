@@ -1,8 +1,8 @@
 #about-container {
-    margin: 4em 4em 10em 4em;
+    margin: 4em 4em 4em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 40px;
 }
 
 
@@ -39,7 +39,8 @@
 }
 
 .about-details-container p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    color: gray;
 }
 
 
