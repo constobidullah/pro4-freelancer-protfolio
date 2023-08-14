@@ -83,11 +83,12 @@
 }
 
 .service-icon i {
-    padding: 100px 70px;
+    padding: 90px 70px;
     border: 1px solid rgb(231, 231, 231);
     border-radius: 10px;
     font-size: 4.5rem;
-    transform: rotate(-30deg) translate(150px, 130px);
+    transform: rotate(-35deg) translate(150px, 150px);
+    transition: .5s;
 }
 
 /* Hover effect */
