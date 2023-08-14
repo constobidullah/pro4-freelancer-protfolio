@@ -119,6 +119,15 @@ nav ul li a:hover {
     border-radius: 25px;
 }
 
+.available h3{
+    display: inline-block;
+    background-color: white;
+    color: #14B789;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border-radius: 35px;
+}
+
 .banner-image {
     width: 100%;
     position: relative;
