@@ -76,13 +76,14 @@
     border-radius: 30px;
     font-size: 1.2rem;
     margin-bottom: 30px;
+    transition: .5s;
 }
 
 .service-text-discover button:hover{
     border: 2px solid transparent;
     background-color: #13AC81;
     color: white;
-    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
 .service-icon {
