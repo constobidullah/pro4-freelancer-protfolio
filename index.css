@@ -8,7 +8,7 @@
 
 header {
     height: 60vh;
-    background-image: linear-gradient(#707fdf, #14B789);
+    background-color: #13ac81;
     position: relative;
 }
 
@@ -19,9 +19,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0 3em;
-    position: sticky;
-    top: 0;
-    z-index: 1;
 }
 
 #check {
@@ -107,35 +104,43 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.hello-image img{
+.hello-image img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
 
-.hello-image h2{
+.hello-image h2 {
     background-color: white;
+    font-size: 2rem;
     padding: 10px 20px;
-    border-radius: 25px;
+    border-radius: 35px;
 }
 
-.available h3{
+.available h3 {
     display: inline-block;
     background-color: white;
     color: #14B789;
     font-size: 2rem;
     padding: 10px 20px;
     border-radius: 35px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
 }
 
-.available a{
+.available a {
     text-decoration: none;
-    background-color:#535DA1;
+    background-color: #535DA1;
     color: white;
     font-weight: 900;
     padding: 15px 35px;
     border-radius: 35px;
+    transition: .3s;
+}
+
+.available a:hover {
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    background-color: #14B789;
 }
 
 .banner-image {
