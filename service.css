@@ -92,8 +92,12 @@
 
 /* Hover effect */
 
-.service-single-item:hover{
+.service-single-item:hover {
     border: 2px solid #13AC81;
+}
+
+.service-single-item:hover .service-name-price button {
+    background-color: #13AC81;
 }
 
 
