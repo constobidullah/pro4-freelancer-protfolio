@@ -63,7 +63,7 @@
     border: 2px solid #13AC81;
 }
 
-.project-item img:hover {
+.project-item:hover img{
     width: 100%;
     margin-top: 30px;
     border-radius: 20px;
