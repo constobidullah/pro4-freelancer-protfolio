@@ -7,7 +7,7 @@
 
 
 header {
-    height: 70vh;
+    height: 60vh;
     background-image: linear-gradient(#707fdf, #14B789);
     position: relative;
 }
@@ -125,6 +125,16 @@ nav ul li a:hover {
     color: #14B789;
     font-size: 2rem;
     padding: 10px 20px;
+    border-radius: 35px;
+    margin-bottom: 30px;
+}
+
+.available a{
+    text-decoration: none;
+    background-color:#535DA1;
+    color: white;
+    font-weight: 900;
+    padding: 15px 35px;
     border-radius: 35px;
 }
 
