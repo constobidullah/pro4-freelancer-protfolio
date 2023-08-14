@@ -267,38 +267,40 @@ nav ul li a:hover {
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
+        gap: 50px;
     }
 
     .introduce-text {
-        margin: 50px 0 50px 0;
+        margin: 50px 0 0;
     }
 
     .hello-image {
         display: flex;
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .hello-image img {
         width: 80px;
         height: 80px;
         border-radius: 50%;
-        margin-right: 20px;
     }
 
-    .hello-image h1 {
+    .hello-image h2 {
         background-color: white;
-        padding: 5px 20px;
-        border-radius: 40px;
+        padding: 10px 20px;
+        border-radius: 60px;
     }
 
-    .available h1 {
-        display: block;
+    .available h3 {
+        display: inline-block;
         background-color: white;
-        padding: 5px 10px;
-        border-radius: 40px;
         color: #14B789;
-        font-size: 1rem;
+        font-size: 1.3rem;
+        padding: 10px 20px;
+        border-radius: 35px;
+        box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
     }
 
     .introduce-image img {
