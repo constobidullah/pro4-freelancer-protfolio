@@ -179,21 +179,17 @@ nav ul li a:hover {
     }
 
     nav {
-        background-color: transparent;
+        background-color: white;
         height: 60px;
         display: flex;
         align-items: center;
-        /* flex-direction: row-reverse; */
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin: 0;
-        position: sticky;
-        top: 0;
-        z-index: 1;
     }
 
     .toggle {
         font-size: 2rem;
-        margin: 0;
+        margin: 0 10px 0 0;
         cursor: pointer;
         display: block;
         transform: all 2s;
@@ -216,7 +212,8 @@ nav ul li a:hover {
         text-align: center;
         align-items: center;
         padding-top: 100px;
-        /* transform: all 2s; */
+        transform: .5s;
+        z-index: 1;
     }
 
     nav ul li {
@@ -265,10 +262,11 @@ nav ul li a:hover {
 
     /* Introduce part start */
     .introduce-container {
-        margin: 0 0 0 10px;
-        display: grid;
-        grid-template-columns: 1fr;
+        margin: 0 10px;
+        display: flex;
+        justify-content: space-around;
         align-items: center;
+        flex-direction: column;
     }
 
     .introduce-text {
