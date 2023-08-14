@@ -153,17 +153,4 @@
         justify-content: space-evenly;
         row-gap: 30px;
     }
-
-    .service-item {
-        background-color: aliceblue;
-        border: 3px solid ab;
-        border-radius: 10px;
-        padding: 10px;
-        /* position: relative; */
-        box-shadow: 8px 8px 15px rgb(212, 211, 211), 8px 8px 15px rgb(212, 211, 211);
-        transition: border .5s, shadow 1s;
-    }
-
-
-
 }
