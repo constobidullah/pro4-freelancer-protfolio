@@ -60,7 +60,7 @@
     text-align: center;
     border: 1px solid rgb(202, 204, 206);
     border-radius: 30px;
-    transition: background 2s;
+    transition: background .5s;
 }
 
 .contact-service p:hover {
@@ -93,9 +93,6 @@
     color: white;
 }
 
-/* .project-start{
-    margin: 30px 0 0 80px;
-} */
 
 .project-start p {
     margin-top: 10px;
@@ -200,6 +197,7 @@ textarea {
     border: 2px solid gray;
     color: black;
     border-radius: 3px;
+    width: 100%;
 }
 
 textarea:hover {
