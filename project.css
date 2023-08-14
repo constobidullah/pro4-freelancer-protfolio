@@ -38,7 +38,7 @@
     border-radius: 20px;
     padding: 20px;
     overflow: hidden;
-    transition: all 1s;
+    transition: .3s;
 }
 
 .project-item p {
@@ -61,7 +61,6 @@
 /* project item hover effect */
 .project-item:hover {
     border: 2px solid #13AC81;
-    /* overflow: visible; */
 }
 
 .project-item img:hover {
