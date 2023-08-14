@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -166,12 +166,15 @@ nav ul li a:hover {
         padding: 0;
         border: 0;
         box-sizing: border-box;
+    }
+
+    body {
         overflow-x: hidden;
     }
 
     header {
         height: 100vh;
-        background-image: linear-gradient(#707fdf, #14B789);
+        background-color: #13ac81;
         position: relative;
     }
 
