@@ -31,70 +31,6 @@
     grid-gap: 30px;
 }
 
-.service-item {
-    background-color: aliceblue;
-    border-radius: 10px;
-    padding: 50px 30px;
-    position: relative;
-    box-shadow: 8px 8px 15px rgb(212, 211, 211), 8px 8px 15px rgb(212, 211, 211);
-    transition: border .5s, shadow 1s;
-}
-
-.service-item:hover {
-    border: 3px solid #13AC81;
-}
-
-.service-name {
-    height: 30px;
-    padding: 0 30px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid;
-}
-
-.service-name p {
-    background-color: rgb(198, 143, 250);
-    padding: 10px 30px;
-    border-radius: 20px;
-    font-weight: 900;
-    color: white;
-}
-
-.service-item:hover .service-name p {
-    background-color: #13AC81;
-}
-
-.service-details {
-    text-align: center;
-}
-
-.service-details p {
-    font-size: 1.5rem;
-    padding: 20px 0;
-}
-
-.service-details a {
-    text-decoration: none;
-    font-size: x-large;
-    color: gray;
-    background-color: rgb(253, 244, 244);
-    padding: 10px 20px;
-    border: 1px solid;
-    border-radius: 30px;
-}
-
-.service-details a:hover {
-    border: 0;
-    color: white;
-    background-color: #13AC81;
-    box-shadow: 0 5px 30px rgb(204, 201, 201), 0px 3px 10px gray;
-}
-
-.service-photo {
-    margin-top: 50px;
-    text-align: center;
-}
 
 
 @media screen and (max-width: 980px) and (min-width: 200px) {
@@ -145,7 +81,7 @@
     .service-item:hover {
         border: 3px solid #13AC81;
     }
-    
+
     .service-name {
         height: 3em;
         padding: 0;
@@ -154,7 +90,7 @@
         justify-content: space-between;
         border-bottom: 1px solid;
     }
-    
+
     .service-name p {
         background-color: rgb(172, 111, 230);
         padding: 10px 30px;
@@ -162,21 +98,21 @@
         font-weight: 900;
         color: white;
     }
-    
+
     .service-item:hover .service-name p {
         background-color: #13AC81;
     }
-    
+
     .service-details {
         text-align: center;
         padding-bottom: 30px;
     }
-    
+
     .service-details p {
         font-size: 1.5rem;
         padding: 20px 0;
     }
-    
+
     .service-details a {
         text-decoration: none;
         font-size: 1.5rem;
@@ -187,17 +123,17 @@
         border-radius: 30px;
         margin-bottom: 30px;
     }
-    
+
     .service-details a:hover {
         border: 0;
         color: white;
         background-color: #13AC81;
         box-shadow: 0 5px 30px rgb(204, 201, 201), 0px 3px 10px gray;
     }
-    
+
     .service-photo {
         margin-top: 20px;
         text-align: center;
     }
-    
+
 }
