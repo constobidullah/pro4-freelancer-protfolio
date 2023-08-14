@@ -77,6 +77,13 @@
     margin-bottom: 30px;
 }
 
+.service-text-discover button:hover{
+    border: 2px solid transparent;
+    background-color: #13AC81;
+    color: white;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
 .service-icon {
     overflow: hidden;
     padding: 0;
