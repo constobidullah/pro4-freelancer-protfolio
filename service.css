@@ -95,9 +95,10 @@
     border: 1px solid rgb(231, 231, 231);
     border-radius: 10px;
     font-size: 4.5rem;
-    transform: rotate(-35deg) translate(150px, 150px);
+    transform: rotate(-35deg) translate(130px, 150px);
     transition: .5s;
 }
+
 
 /* Hover effect */
 
