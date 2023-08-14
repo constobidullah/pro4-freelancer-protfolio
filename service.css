@@ -61,10 +61,12 @@
 }
 
 .service-text-discover button{
-    border: 2px solid gray;
+    border: 2px solid rgb(211, 210, 210);
+    background-color: transparent;
+    color: gray;
     padding: 10px 20px;
     border-radius: 30px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 
