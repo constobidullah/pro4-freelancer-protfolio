@@ -101,6 +101,10 @@
     background-color: #13AC81;
 }
 
+.service-single-item:hover .service-icon i{
+    background-color: #13AC81;
+    color: white;
+}
 
 
 @media screen and (max-width: 980px) and (min-width: 200px) {
