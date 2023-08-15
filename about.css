@@ -108,11 +108,13 @@ article {
 .work-experience-item:nth-child(3) {
     border-right: 1px solid;
     border-bottom: 0;
+    padding-top: 20px;
 }
 
 .work-experience-item:nth-child(4) {
     border-right: 0;
     border-bottom: 0;
+    padding-top: 20px;
 }
 
 .work-experience-item h1 {
@@ -228,7 +230,9 @@ article {
         text-align: left;
         padding-left: 5em;
     }
-
+.work-experience-item{
+    padding: 20px 0;
+}
     .work-experience-item h1 {
         font-size: 2rem;
         font-weight: bold;
