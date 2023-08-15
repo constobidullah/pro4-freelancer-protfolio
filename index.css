@@ -265,7 +265,7 @@ nav ul li a:hover {
         justify-content:center;
         align-items: center;
         flex-direction: column;
-        gap: 100px;
+        gap: 50px;
     }
 
     .introduce-text {
