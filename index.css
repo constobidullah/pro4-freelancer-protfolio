@@ -146,11 +146,6 @@ nav ul li a:hover {
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
     background-color: #14B789;
 }
-/* 
-.banner-image {
-    width: 100%;
-    position: relative;
-} */
 
 .banner-image img {
     object-fit: cover;
