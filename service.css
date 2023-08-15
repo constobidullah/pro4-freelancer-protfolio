@@ -29,7 +29,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    row-gap: 30px;
+    gap: 50px;
 }
 
 .service-single-item {
